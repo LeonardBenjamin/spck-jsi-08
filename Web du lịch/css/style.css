@@ -1,0 +1,126 @@
+.oswald-400 {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    text-decoration: none;
+    color: #000000;
+}
+
+body {
+    background-image: url("../imgs/billy-huynh-v9bnfMCyKbg-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}    
+
+#container {
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+}
+
+
+#navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: transform 0.3s;
+}
+
+#navbar:hover {
+    transform: translateY(-5px);
+}
+
+#navbar-container:hover {
+    color: #dededec6;
+}
+
+#navbar-container {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+#navbar {
+    background-color: #f3f3f3a5;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between; 
+    width: 60%;
+    color: #000;
+    font-size: 22px;
+}
+
+
+
+/* Dropdown Menu Styling */
+
+#dropdown {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    color: black;
+}
+
+#dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f94c;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#dropdown:hover #dropdown-content {
+    display: block;
+}
+
+#dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#dropdown-content a:hover {
+    background-color: #b8b8b8be;
+}
+
+#dropdown:hover #dropdown-toggle {
+    cursor: pointer;
+}
+
+
+/* Navbar Hover Like Button Hover */
+
+#navbar-container:hover {
+    color: #505050;
+}
+
+#navbar-container {
+    transition: color 0.3s;
+}
+
+
+#dropdown-button:hover {
+    color: #505050;
+    transition: color 0.3s;
+}
+
+#login {
+    padding: 10px;
+}
+
+#login-button {
+    color: black;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+#login-button:hover {
+    color: #505050;
+}
