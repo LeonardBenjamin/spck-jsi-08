@@ -36,4 +36,17 @@ app.changeActiveScreen(login)
 // const register = new Register()
 // const app = new App(container)
 // app.changeActiveScreen(register)
+function createElement(tagname,prop){
+    const element = document.createElement(tagname)
+    for (const key in prop){
+        element[key] = prop[key]
+    }
+    return element
+}
+let div = createElement("div",{
+    innerText: "hello",
+    className: "hello",
+    id: "hello",
+})
+console.log(div)
 export default app
