@@ -1,36 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour and Life</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-</head>
-<body>
-    <div id="container">
-        <div id="navbar">
-            <a href="#" id="navbar-container">Home</a>
-            <a href="#" id="navbar-container">About</a>
-            <a href="#" id="navbar-container">Contact</a>
-            <a href="#" id="navbar-container">Tour and Booking</a>
-            <a href="#" id="navbar-container">Account</a>
-            <div id="dropdown">
-                <a href="#" id="dropdown-button">Places</a>
-                <div id="dropdown-content">
-                    <a href="#">Vietnam</a>
-                    <a href="#">Coming soon</a>
-                    <a href="#">Coming soon</a>
-                </div>
-            </div>
-            <div id="login">
-                <a href="../html/login.html" id="login-button">Login</a>
-            </div>
-        </div>  
-    </div>
-    <div id="blog-post">
+<<<<<<<<<<<<<<  ✨ Codeium Command ⭐ >>>>>>>>>>>>>>>>
+    document.getElementById("blog-post").innerHTML = `
         <h2>Exploring the Paradise of Phu Quoc: Unveiling Vietnam's Tropical Gem</h2>
         <img src="../imgs/blog-1.jpg" alt="Phu Quoc">
         <p>Nestled in the Gulf of Thailand, Phu Quoc emerges as a captivating island paradise, captivating visitors with its pristine beaches, turquoise waters, and lush rainforests. As you step onto its shores, you're greeted by the gentle sway of palm trees and the soothing melody of waves kissing the shore, instantly whisking you away into a world of tranquility and natural beauty.</p>
@@ -39,18 +8,5 @@
         <p>Indulge your senses in the tantalizing flavors of Phu Quoc's culinary scene, where fresh seafood delights the palate and traditional Vietnamese dishes tantalize the taste buds. Whether you're savoring a bowl of steaming pho at a local street stall or dining under the stars at a beachfront restaurant, every meal in Phu Quoc is a culinary adventure waiting to be savored.</p>
         <p>As the sun sets on another day in paradise, the sky ablaze with hues of pink and orange, take a moment to reflect on the beauty and wonder of Phu Quoc. Whether you're seeking adventure, relaxation, or simply a chance to reconnect with nature, this tropical gem offers an unforgettable escape from the ordinary, inviting you to create memories that will last a lifetime.</p>
         <h4>Kai Aetherweigh</h4>
-    </div>
-    <footer id="footer">
-        <h1>Tour and Life</h1>
-        <div id="tag">
-            <a href="./home.html">Home</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contact</a>
-            <a href="./tab.html">Tour and Booking</a>
-            <a href="./acc.html">Account</a>
-            <a href="./homeblog.html">Blog</a>
-        </div>
-    </footer>
-</body>
-<script src="../js/blog-1.js"></script>
-</html>
+    `;
+<<<<<<<  53d8aa8f-bc2e-4a7f-98b3-d98468ac58c6  >>>>>>>

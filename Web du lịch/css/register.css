@@ -7,7 +7,6 @@
 
 * {
     text-decoration: none;
-    color: #ffffff;
     font-family: "Oswald", sans-serif;
     font-size: 25px;
 }
@@ -50,6 +49,7 @@ input {
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 700;
+    color: black;
 }
 
 button {
