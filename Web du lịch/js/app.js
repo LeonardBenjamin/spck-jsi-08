@@ -1,5 +1,5 @@
-import Login from "./log-in.js";
-import Register from "./register.js/index.js";
+import Login from "..js/login.js";
+import Register from "../js/register.js";
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-app.js";
 import 'https://www.gstatic.com/firebasejs/10.7.2/firebase-analytics.js';
