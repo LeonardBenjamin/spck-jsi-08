@@ -1,5 +1,5 @@
 import app from './app.js';
-import Register from '../../lesson_3/public/register.js/index.js';
+import Register from '../js/register.js';
 import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.7.2/firebase-auth.js"
 class Login {
     $txtEmail
