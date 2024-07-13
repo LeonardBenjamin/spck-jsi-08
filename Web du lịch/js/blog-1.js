@@ -1,4 +1,3 @@
-<<<<<<<<<<<<<<  ✨ Codeium Command ⭐ >>>>>>>>>>>>>>>>
     document.getElementById("blog-post").innerHTML = `
         <h2>Exploring the Paradise of Phu Quoc: Unveiling Vietnam's Tropical Gem</h2>
         <img src="../imgs/blog-1.jpg" alt="Phu Quoc">
@@ -9,4 +8,3 @@
         <p>As the sun sets on another day in paradise, the sky ablaze with hues of pink and orange, take a moment to reflect on the beauty and wonder of Phu Quoc. Whether you're seeking adventure, relaxation, or simply a chance to reconnect with nature, this tropical gem offers an unforgettable escape from the ordinary, inviting you to create memories that will last a lifetime.</p>
         <h4>Kai Aetherweigh</h4>
     `;
-<<<<<<<  53d8aa8f-bc2e-4a7f-98b3-d98468ac58c6  >>>>>>>
